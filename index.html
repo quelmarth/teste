@@ -12,15 +12,13 @@
 <body style="background-color:black;">
 
 <div class="container">
-  <div class="pair">
+  <div class="row">
     <div class="affluences-counter" data-token="BruV6IlujdwAe1" lang="en"></div>
     <div class="affluences-counter" data-token="cEhyzJZvC5nHSr" lang="en"></div>
-  </div>
-  <div class="pair">
     <div class="affluences-counter" data-token="iceVfgwZWaZRhV" lang="en"></div>
-    <div class="affluences-counter" data-token="1yLPz9X0CNsg27" lang="en"></div>
   </div>
-  <div class="pair">
+  <div class="row">
+    <div class="affluences-counter" data-token="1yLPz9X0CNsg27" lang="en"></div>
     <div class="affluences-counter" data-token="keu1j5zERlQn90" lang="en"></div>
     <div class="affluences-counter" data-token="bY7K1v43HiAq55" lang="en"></div>
   </div>
@@ -32,14 +30,14 @@
   flex-wrap: wrap; /* Allows elements to wrap onto new lines */
 }
 
-.pair {
-  display: flex; /* Makes each pair a flexbox */
-  width: 50%; /* Sets width for each pair (adjust as needed) */
-  margin: 5px; /* Optional: adds margin for spacing */
+.row {
+  display: flex; /* Makes each row a flexbox */
+  width: 100%; /* Makes each row take full width */
 }
 
 .affluences-counter {
-  width: 50%; /* Sets width for each inner div (adjust as needed) */
+  width: 33.33%; /* Sets width for each div (adjust as needed) */
+  margin: 5px; /* Optional: adds margin for spacing */
 }
 </style>
 
